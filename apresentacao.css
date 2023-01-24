@@ -7,6 +7,7 @@
 
 body {
     background-color: #12334e;
+    padding: 5em;
 }
 
 h1 {
@@ -82,15 +83,15 @@ li {
 .div4 {
     border: 2px solid #259dfc;
     background-color: #154a74;
-    max-width: 60vw;
+    /* max-width: 60vw; */
     border-radius: 10px;
     padding: 30px;
     font-size: 1.9rem;
     color: #fff;
     text-align: justify;
-    margin: auto;
+    /* margin: auto; */
     margin-bottom: 2vw;
-    /* height: 100vh; */
+    /* width: 100vw; */
 }
 
 .div2-1, .div2-2, .div2-3, .div2-4, .div2-5, .div2-6 {
@@ -106,4 +107,8 @@ th, td {
     border-radius: 10px;
     padding: 1.2rem;
     text-align: center;
+}
+
+th, tr {
+    background-color: #12334e;
 }
